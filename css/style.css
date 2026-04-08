@@ -144,11 +144,13 @@ nav .btn.active { background: var(--primary); color: white; border-color: var(--
 }
 
 .stone {
-  width: 80%;
-  height: 80%;
+  width: 85%;
+  height: 85%;
   border-radius: 50%;
   position: absolute;
-  transition: transform 0.15s ease;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   pointer-events: none;
 }
 .stone.black { background: radial-gradient(circle at 30% 30%, #4a4a4a, var(--black-stone)); box-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
